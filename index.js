@@ -51,7 +51,8 @@ app.get('/', async (req, res) => {
 
         res.json(logData);
     } catch (error) {
-        res.status(500).json({ error: "Internal Server Error" });
+        res.status(500).json({ error: message: "Send Valid Instagram URL. join: "@INDIAN_DEV",
+            credit: "Made by JYOTIRMAY DAS" " });
     }
 });
 
