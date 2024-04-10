@@ -51,7 +51,7 @@ app.get('/', async (req, res) => {
 
         res.json(logData);
     } catch (error) {
-        res.status(500).json({ error: "Submit valid Instagram URL. Made by JYOTIRMAY DAS. Join INDIAN_DEV" });
+        res.status(500).json({ error: "Submit valid Instagram URL. Made by JYOTIRMAY DAS. Join @INDIAN_DEV" });
     }
 });
 
